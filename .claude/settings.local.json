@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.christie.design)",
+      "WebFetch(domain:vgen.co)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "portfolio-redesign",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["serve", "-l", "3001", "."],
+      "port": 3001
+    },
+    {
+      "name": "admin",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["admin.js"],
+      "port": 3002
+    }
+  ]
+}
