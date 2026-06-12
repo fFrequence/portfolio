@@ -23,6 +23,14 @@ function updateIcon(theme) {
   if (toggleIcon) {
     toggleIcon.textContent = theme === 'dark' ? '☽' : '☀︎';
   }
+  updateLogo(theme);
+}
+
+function updateLogo(theme) {
+  const logoImg = document.querySelector('.nav-logo-img');
+  if (logoImg) {
+    logoImg.src = theme === 'dark' ? 'imgs/lightlogo.png' : 'imgs/logo.png';
+  }
 }
 
 // ---- BACK TO TOP ----
